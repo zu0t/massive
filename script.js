@@ -10,7 +10,7 @@ fetch('./massive.txt')
 function copyAsciiArt() {
     const asciiArt = document.querySelector('.ascii-art').innerText;
     navigator.clipboard.writeText(asciiArt).then(() => {
-        alert('ASCII art copied to clipboard!');
+        alert('Your clipboard is now massive');
     });
 }
 
