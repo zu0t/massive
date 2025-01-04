@@ -19,6 +19,6 @@ function saveAsciiArt() {
     const blob = new Blob([asciiArt], { type: 'text/plain' });
     const link = document.createElement('a');
     link.href = URL.createObjectURL(blob);
-    link.download = 'ascii-art.txt';
+    link.download = 'massive.txt';
     link.click();
 }
